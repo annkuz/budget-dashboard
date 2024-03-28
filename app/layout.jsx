@@ -1,9 +1,6 @@
 import '@/app/ui/globals.css';
 import '@radix-ui/themes/styles.css';
-// import { Inter } from 'next/font/google'
 import { Theme } from '@radix-ui/themes';
-
-// const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Annkuz Budget Dashboard',
