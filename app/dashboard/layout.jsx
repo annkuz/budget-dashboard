@@ -1,19 +1,20 @@
 import React from 'react'
 import Navbar from '@/app/ui/dashboard/navbar/navbar'
 import Sidebar from '@/app/ui/dashboard/sidebar/sidebar'
-import { Flex, Box, Container, Section } from '@radix-ui/themes'
+import styles from '@/app/ui/dashboard/dashboard.module.css'
+import clsx from 'clsx'
 
 const Layout = ({children}) => {
   return (
-    <Flex >
-        <Box flex={"1"} width="100%">
+    <div className={clsx('flex h-screen', styles.container)}>
+        <div className={clsx('basis-1/5 p-5', styles.sidebar)}>
             <Sidebar />
-        </Box>
-        <Box flex={"4"} width="100%">
+        </div>
+        <div className={clsx('basis-4/5 p-5', styles.dashboard)}>
             <Navbar />
             {children}
-        </Box>
-    </Flex>
+        </div>
+    </div>
   )
 }
 

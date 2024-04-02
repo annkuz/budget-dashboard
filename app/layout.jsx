@@ -1,5 +1,4 @@
 import '@/app/ui/globals.css';
-import '@radix-ui/themes/styles.css';
 import { Theme } from '@radix-ui/themes';
 
 export const metadata = {
