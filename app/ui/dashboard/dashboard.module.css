@@ -1,7 +1,5 @@
-.container {
-    background-color: var(--color-background);
-}
-
 .sidebar {
-    background-color: var(--color-panel-solid);
+    background-color: var(--color-panel);
+    border-right-width: 1px;
+    border-right-color: var(--gray-5);
 }
