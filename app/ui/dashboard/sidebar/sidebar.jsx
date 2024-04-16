@@ -36,7 +36,7 @@ const Sidebar = () => {
           <Heading as='h3' size='1' weight='bold' className='px-2 py-2' color='gray'>{menuCategory.title}</Heading>
           <div className='flex flex-col'>
             {
-              menuCategory.list.map(menuItem => <MenuItem key='menuItem.title' {...menuItem}/>)
+              menuCategory.list.map(menuItem => <MenuItem key={menuItem.title} {...menuItem}/>)
             }
           </div>
         </div>

@@ -1,5 +1,6 @@
 import '@/app/ui/globals.css';
 import { Theme } from '@radix-ui/themes';
+import Background from './ui/background/background';
 
 export const metadata = {
   title: 'Annkuz Budget Dashboard',
@@ -10,7 +11,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        <Theme appearance="dark">
+        <Background />
+        <Theme appearance="dark" accentColor="cyan">
           {children}
         </Theme>
       </body>

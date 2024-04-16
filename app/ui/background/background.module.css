@@ -1,0 +1,13 @@
+.background {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+}
+
+.background>svg {
+    opacity: .6;
+    width: max(1980px,100vw);
+    height: auto;
+}
