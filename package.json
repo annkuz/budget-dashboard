@@ -12,6 +12,7 @@
     "dependencies": {
         "@next/eslint-plugin-next": "14.0.1",
         "@radix-ui/themes": "^2.0.3",
+        "@tanstack/react-table": "^8.16.0",
         "next": "14.0.1",
         "react": "18",
         "react-dom": "18"
